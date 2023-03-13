@@ -1,0 +1,72 @@
+@import "base/bootstrap-reboot";
+@import "base/vars";
+@import "base/mixins";
+@import "base/icons";
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.caption {
+  background: #000;
+  color: #fff;
+  width: 115px;
+  text-transform: uppercase;
+  font-size: 11px;
+  text-align: center;
+  margin: 0 auto;
+  height: 27px;
+  line-height: 26px;
+  margin-bottom: 30px;
+  &-white {
+    background: #fff;
+    color: #000;
+  }
+}
+
+.title {
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  &-white {
+    color: #fff;
+  }
+}
+
+.btn {
+  border: none;
+  padding: 20px 35px;
+  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
+  background: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+  box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  transition: 0.2s all;
+  &-small {
+    font-size: 14px;
+    padding: 17px 30px;
+  }
+  /* &:hover {
+    padding: 22px 37px;
+    background: darken($color: #1eacc7, $amount: 10%);
+  } */
+  &:active {
+    transform: scale(0.97);
+  }
+}
+
+@import "sections/header";
+@import "sections/promo";
+@import "sections/reasons";
+@import "sections/app";
+@import "sections/choice";
+@import "sections/map";
+@import "sections/work";
+@import "sections/footer";
+@import "media";
+

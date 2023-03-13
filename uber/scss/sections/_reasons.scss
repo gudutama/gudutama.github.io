@@ -1,0 +1,50 @@
+.reasons {
+  padding: 20px 0 60px;
+}
+
+.reasons-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.reasons-item {
+  display: flex;
+  width: 510px;
+  justify-content: space-between;
+  margin: 15px 0;
+  align-items: center;
+  /* &:nth-child(3n) {
+    .reasons-item-title {
+      color: red;
+    }
+  } */
+}
+
+.reasons-item-circle {
+  width: 116px;
+  height: 116px;
+  border-radius: 50%;
+  background: $main-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reasons-item-text {
+  width: 370px;
+}
+
+.reasons-item-paragraph {
+  font-size: 15px;
+  font-weight: 300;
+  color: #000;
+  line-height: 1.4;
+}
+
+.reasons-item-title {
+  font-size: 17px;
+  font-weight: 400;
+  color: $main-color;
+  line-height: 1.4;
+}

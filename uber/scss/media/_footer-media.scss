@@ -1,0 +1,14 @@
+@media (max-width: 1200px) {
+  .footer-app-items {
+    flex-direction: column;
+    .footer-app-item {
+      margin-bottom: 5px;
+    }
+  }
+  .footer-socials {
+    width: 180px;
+  }
+  .footer-menu {
+    margin-right: 60px;
+  }
+}

@@ -1,0 +1,93 @@
+.footer {
+  padding: 15px;
+}
+
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-socials {
+  display: flex;
+  width: 312px;
+}
+
+.footer-social-item {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background: #000;
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  transition: 0.3s;
+  &:hover {
+    background: #fff;
+    color: #000;
+  }
+}
+
+.line {
+  width: 300px;
+  height: 7px;
+  background-color: #1fbad6;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.footer-menu {
+  flex-wrap: wrap;
+  text-align: center; 
+}
+
+.footer-menu-top {
+  font-size: 15px;
+  text-transform: uppercase;
+  display: flex;
+  margin-bottom: 10px;
+  ul {
+    a {
+      text-decoration: none;
+      color: black;
+      margin: 0 20px;
+    }
+  }
+}
+
+.footer-menu-bottom {
+  font-size: 11px;
+  text-transform: uppercase;
+  display: flex;
+  margin-bottom: 10px;
+  ul {
+    a {
+      color: gray;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+  }
+}
+
+.language {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: $main-color;
+}
+
+.footer-app-items {
+  display: flex;
+}
+
+.footer-app-item {
+  margin: 0 5px;
+}
+
+.footer-app {
+  width: 94px;
+  height: 26px;
+}

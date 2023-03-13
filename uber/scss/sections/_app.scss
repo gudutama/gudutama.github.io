@@ -1,0 +1,60 @@
+.app {
+  background: url(../../img/bg/app-bg.png) center center/cover no-repeat;
+  text-align: center;
+}
+
+.app-subtitle {
+  font-size: 17px;
+}
+
+.app-items {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 20px;
+  justify-content: space-evenly;
+}
+
+.app-item {
+  margin: 20px 0;
+  width: 320px;
+  position: relative;
+}
+
+.app-item-title {
+  font-size: 24px;
+  text-transform: uppercase;
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 270px;
+  top: 70px;
+}
+
+.item {
+  justify-content: center;
+  align-items: center;
+}
+
+.app-item-circle {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #000;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 30px;
+  color: $main-color;
+  text-decoration: none;
+  font-size: 30px;
+
+  span {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2px;
+  }
+}
